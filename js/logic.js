@@ -7,6 +7,7 @@ function displayListElement(item){
     $("#lista").append(str);
 }
 function displayLista(lista){
+    $("#lista").text("");
     for(lista of lista){
         displayListElement(lista);
     }
@@ -19,10 +20,6 @@ function getPreguntas(deck){
         displayQuestion(preguntas[count]);
     });
 }
-function startPage(){
-    let working = getPreguntas("json/test.json");
-    return working
-}
 function displayQuestion(question){
     $("#main-pregunta").html(question.pregunta);
     $("#main-respuesta").hide();
@@ -34,4 +31,7 @@ function siguientePregunta(){
     }
     displayQuestion(preguntas[count]);
 }
-startPage();
+
+
+
+getPreguntas("json/test.json");

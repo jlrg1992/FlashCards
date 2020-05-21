@@ -34,4 +34,4 @@ function siguientePregunta(){
 
 
 
-getPreguntas("json/test.json");
+getPreguntas("json/mi.json");

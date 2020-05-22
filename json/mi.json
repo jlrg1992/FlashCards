@@ -1,12 +1,9 @@
 [
-    {
-        "pregunta": "¿A qué ritmo se debe reponer el sodio en la hiponatremia?",
-        "respuesta": "No se debe reponer más de 10mmol/l en 24, ni más de 18mmol/l en 48 hrs."
-    },
-    {
-        "pregunta": "Complicación relacionada con reponer el sodio demasiado rápido en la hiponatremia",
-        "respuesta": "Mielinosisis pontina"
-    },
-{"pregunta": "Medicamento que aumenta su potencial arrítmico en la hipokalemia", "respuesta":"Digoxina"}
+"{pregunta": "Definición de hiponatremia", "respuesta":"Concentración sérica de Na menor a 135mmol/L"},
+{"pregunta": "Valores de la hiponatremia inensa", "respuesta":"Na sérico menor a 120mmol/L"},
+{"pregunta": "Síntomas de la hiponatremia", "respuesta":"Náusea, vómito, confusión, letargo y desorietación"},
+{"pregunta": "Principal causa de la hiponatremia:", "respuesta":"Aumento de la AVP"},
+{"pregunta": "¿Qué es la potomanía por cerveza?", "respuesta":"Es una condición en la que, por ser la cerveza hipotónica, no hay los solutos necesarios para asegurar una correcta excreción de H20"},
+{"pregunta": "¿Cómo se clasifican los pacientes con hiponatremia?", "respuesta":"Hiponatremia euvolémica, hiponatremia hipovolḿica e hiponatremia hipervolémica"}
 ]
     

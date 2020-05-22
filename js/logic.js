@@ -2,14 +2,14 @@ let preguntas;
 let count;
 
 
-function displayListElement(item){
-    str = '<div class="post-preview"><h2 class="post-title">' + item.pregunta + '</h2><p class="post-meta">' + item.respuesta + '</p></div><hr>'
+function displayListElement(item,num){
+    str = '<div class="post-preview"><h2 class="post-title">' + num + ".- " + item.pregunta + '</h2><p class="post-meta">' + item.respuesta + '</p></div><hr>'
     $("#lista").append(str);
 }
 function displayLista(lista){
     $("#lista").text("");
-    for(lista of lista){
-        displayListElement(lista);
+    for(lis in lista){
+        displayListElement(lista[lis], lis);
     }
 }
 function getPreguntas(deck){
